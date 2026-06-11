@@ -36,7 +36,7 @@ public class Chatapp {
             System.out.print("Enter your username: ");
             String loginUsername = kb.nextLine();
             
-            System.out.print("Enter ur password: ");
+            System.out.print("Enter your password: ");
             String loginPassword = kb.nextLine();
             
             boolean LoginSuccess = user.loginUser(loginUsername, loginPassword);
